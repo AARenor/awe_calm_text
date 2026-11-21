@@ -7,5 +7,9 @@ const TEXT =
 
 const dir = process.env.MAKEFUN_OUTPUT_DIR ?? "/output";
 mkdirSync(dir, { recursive: true });
-writeFileSync(join(dir, "entry.txt"), TEXT);
+const count = [...TEXT].length;
+if (count < 1 || count > 280) {
+  throw new Error(`text has ${count} code points, outside 1 to 280`);
+}
+writeFileSync(join(dir, "entry.txt"), TEXT, "utf8");
 process.exit(0);
