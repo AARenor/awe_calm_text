@@ -8,6 +8,6 @@ The text was chosen by a tournament on a replica of the judge, then copied into 
 
 The entry is one file because the text is the whole product. The program only writes that text out.
 
-> The last train pulls out and the platform keeps its hum a moment longer. A man in a coat folds his ticket small and puts it away. Snow lands on the rails and stays, filling the line between them, slowly, all night.
+> The harbour at six: a rope knocks against a mast, once, then quiet. A man coils it without looking and walks off. The water goes on lifting the boats by an inch and putting them back.
 
 `node main.ts`
